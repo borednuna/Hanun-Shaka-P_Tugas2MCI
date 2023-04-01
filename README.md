@@ -9,3 +9,6 @@ Dalam studi kasus ini, diperlukan beberapa tabel yang mencakup tabel _user_, _bo
 
 Kemudian, dari CDM tersebut didetailkan lagi dalam PDM berikut. <br/>
 ![PDM](./img/SeminarSystem_PDM.drawio.svg)
+
+## CRUD API
+Dalam project ini, digunakan ExpressJs dan postgresql. Well, walaupun pada pertemuan kedua diajarkan untuk menggunakan XAMPP, saya mengimplementasikannya dengan postgresql. Alasan utamanya karena di kelas MBD saya diminta untuk menggunakan postgresql dan saya rasa tidak ada salahnya mencobanya pada project ini. Referensi yang saya gunakan _mostly_ adalah dokumentasi dari _sequelize_ sendiri mengenai penggunaannya dengan postgresql.
