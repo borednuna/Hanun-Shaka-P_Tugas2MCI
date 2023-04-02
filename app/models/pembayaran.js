@@ -14,9 +14,9 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   pembayaran.init({
-    tgl_pembayaran: DataTypes.DATE,
-    waktu_pembayaran: DataTypes.TIME,
-    metode_pembayaran: DataTypes.ENUM('Transfer', 'Ovo', 'Gopay', 'Dana')
+    tanggal: DataTypes.DATEONLY,
+    waktu: DataTypes.TIME,
+    method: DataTypes.ENUM('Transfer', 'Ovo', 'Gopay', 'Dana')
   }, {
     sequelize,
     modelName: 'pembayaran',

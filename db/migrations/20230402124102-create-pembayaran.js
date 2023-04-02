@@ -9,13 +9,13 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      tgl_pembayaran: {
-        type: Sequelize.DATE
+      tanggal: {
+        type: Sequelize.DATEONLY
       },
-      waktu_pembayaran: {
+      waktu: {
         type: Sequelize.TIME
       },
-      metode_pembayaran: {
+      method: {
         type: Sequelize.ENUM('Transfer', 'Ovo', 'Gopay', 'Dana')
       },
       createdAt: {

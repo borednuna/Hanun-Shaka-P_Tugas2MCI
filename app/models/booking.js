@@ -14,18 +14,19 @@ module.exports = (sequelize, DataTypes) => {
       booking.belongsTo(models.user, {
         foreignKey: 'id_user',
         as: 'id_user'
-        })
+      });
+
       booking.belongsTo(models.pembayaran, {
         foreignKey: 'id_pembayaran',
         as: 'id_pembayaran'
-        })
+      });
     }
   }
   booking.init({
     id_user: DataTypes.INTEGER,
     id_pembayaran: DataTypes.INTEGER,
     harga_total: DataTypes.INTEGER,
-    tanggal_booking: DataTypes.DATE,
+    tanggal_booking: DataTypes.DATEONLY,
     waktu_booking: DataTypes.TIME
   }, {
     sequelize,

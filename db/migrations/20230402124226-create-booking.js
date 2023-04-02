@@ -31,7 +31,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       tanggal_booking: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       waktu_booking: {
         type: Sequelize.TIME

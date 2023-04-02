@@ -10,7 +10,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       tanggal: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       waktu: {
         type: Sequelize.TIME
