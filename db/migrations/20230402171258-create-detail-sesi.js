@@ -2,39 +2,30 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('bookings', {
-      id_booking: {
+    await queryInterface.createTable('detail_sesis', {
+      id_detail_sesi: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id_user: {
+      fk_id_booking: {
         type: Sequelize.INTEGER,
         references: {
-          model: 'users',
-          key: 'id_user'
+          model: 'bookings',
+          key: 'id_booking'
         },
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE'
       },
-      id_pembayaran: {
+      fk_id_sesi: {
         type: Sequelize.INTEGER,
         references: {
-          model: 'pembayarans',
-          key: 'id_pembayaran'
+          model: 'sesis',
+          key: 'id_sesi'
         },
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE'
-      },
-      harga_total: {
-        type: Sequelize.INTEGER
-      },
-      tanggal_booking: {
-        type: Sequelize.DATEONLY
-      },
-      waktu_booking: {
-        type: Sequelize.TIME
       },
       createdAt: {
         allowNull: false,
@@ -47,6 +38,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('bookings');
+    await queryInterface.dropTable('detail_sesis');
   }
 };

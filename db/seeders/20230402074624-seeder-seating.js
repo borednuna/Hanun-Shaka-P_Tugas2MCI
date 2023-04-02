@@ -14,7 +14,7 @@ module.exports = {
     */
     await queryInterface.bulkInsert('seatings', [
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -23,7 +23,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -32,7 +32,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -41,7 +41,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -50,7 +50,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -59,7 +59,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -68,7 +68,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -77,7 +77,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -86,7 +86,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -95,7 +95,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -104,7 +104,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -113,7 +113,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -122,7 +122,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -131,7 +131,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -140,7 +140,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -149,7 +149,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -158,7 +158,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -167,7 +167,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -176,7 +176,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -185,7 +185,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -194,7 +194,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -203,7 +203,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -212,7 +212,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -221,7 +221,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -230,7 +230,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -239,7 +239,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -248,7 +248,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -257,7 +257,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -266,7 +266,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -275,7 +275,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -284,7 +284,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -293,7 +293,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -302,7 +302,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -311,7 +311,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -320,7 +320,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -329,7 +329,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -338,7 +338,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -347,7 +347,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -356,7 +356,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -365,7 +365,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -374,7 +374,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -383,7 +383,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -392,7 +392,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -401,7 +401,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -410,7 +410,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -419,7 +419,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -428,7 +428,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -437,7 +437,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -446,7 +446,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -455,7 +455,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -464,7 +464,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -473,7 +473,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -482,7 +482,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -491,7 +491,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -500,7 +500,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -509,7 +509,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -518,7 +518,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -527,7 +527,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -536,7 +536,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -545,7 +545,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 1,
+      fk_id_sesi: 1,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
@@ -554,7 +554,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -563,7 +563,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -572,7 +572,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -581,7 +581,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -590,7 +590,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -599,7 +599,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -608,7 +608,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -617,7 +617,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -626,7 +626,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -635,7 +635,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -644,7 +644,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -653,7 +653,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -662,7 +662,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -671,7 +671,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -680,7 +680,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -689,7 +689,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -698,7 +698,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -707,7 +707,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -716,7 +716,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -725,7 +725,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -734,7 +734,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -743,7 +743,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -752,7 +752,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -761,7 +761,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -770,7 +770,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -779,7 +779,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -788,7 +788,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -797,7 +797,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -806,7 +806,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -815,7 +815,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -824,7 +824,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -833,7 +833,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -842,7 +842,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -851,7 +851,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -860,7 +860,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -869,7 +869,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -878,7 +878,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -887,7 +887,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -896,7 +896,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -905,7 +905,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -914,7 +914,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -923,7 +923,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -932,7 +932,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -941,7 +941,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -950,7 +950,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -959,7 +959,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -968,7 +968,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -977,7 +977,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -986,7 +986,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -995,7 +995,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -1004,7 +1004,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -1013,7 +1013,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -1022,7 +1022,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -1031,7 +1031,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -1040,7 +1040,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -1049,7 +1049,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -1058,7 +1058,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -1067,7 +1067,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -1076,7 +1076,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -1085,7 +1085,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 2,
+      fk_id_sesi: 2,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
@@ -1094,7 +1094,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -1103,7 +1103,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -1112,7 +1112,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -1121,7 +1121,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -1130,7 +1130,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -1139,7 +1139,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -1148,7 +1148,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -1157,7 +1157,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -1166,7 +1166,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -1175,7 +1175,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -1184,7 +1184,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -1193,7 +1193,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -1202,7 +1202,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -1211,7 +1211,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -1220,7 +1220,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -1229,7 +1229,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -1238,7 +1238,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -1247,7 +1247,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -1256,7 +1256,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -1265,7 +1265,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -1274,7 +1274,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -1283,7 +1283,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -1292,7 +1292,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -1301,7 +1301,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -1310,7 +1310,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -1319,7 +1319,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -1328,7 +1328,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -1337,7 +1337,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -1346,7 +1346,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -1355,7 +1355,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -1364,7 +1364,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -1373,7 +1373,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -1382,7 +1382,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -1391,7 +1391,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -1400,7 +1400,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -1409,7 +1409,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -1418,7 +1418,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -1427,7 +1427,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -1436,7 +1436,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -1445,7 +1445,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -1454,7 +1454,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -1463,7 +1463,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -1472,7 +1472,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -1481,7 +1481,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -1490,7 +1490,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -1499,7 +1499,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -1508,7 +1508,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -1517,7 +1517,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -1526,7 +1526,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -1535,7 +1535,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -1544,7 +1544,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -1553,7 +1553,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -1562,7 +1562,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -1571,7 +1571,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -1580,7 +1580,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -1589,7 +1589,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -1598,7 +1598,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -1607,7 +1607,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -1616,7 +1616,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -1625,7 +1625,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 3,
+      fk_id_sesi: 3,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
@@ -1634,7 +1634,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -1643,7 +1643,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -1652,7 +1652,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -1661,7 +1661,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -1670,7 +1670,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -1679,7 +1679,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -1688,7 +1688,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -1697,7 +1697,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -1706,7 +1706,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -1715,7 +1715,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -1724,7 +1724,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -1733,7 +1733,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -1742,7 +1742,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -1751,7 +1751,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -1760,7 +1760,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -1769,7 +1769,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -1778,7 +1778,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -1787,7 +1787,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -1796,7 +1796,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -1805,7 +1805,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -1814,7 +1814,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -1823,7 +1823,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -1832,7 +1832,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -1841,7 +1841,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -1850,7 +1850,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -1859,7 +1859,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -1868,7 +1868,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -1877,7 +1877,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -1886,7 +1886,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -1895,7 +1895,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -1904,7 +1904,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -1913,7 +1913,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -1922,7 +1922,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -1931,7 +1931,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -1940,7 +1940,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -1949,7 +1949,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -1958,7 +1958,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -1967,7 +1967,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -1976,7 +1976,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -1985,7 +1985,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -1994,7 +1994,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -2003,7 +2003,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -2012,7 +2012,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -2021,7 +2021,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -2030,7 +2030,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -2039,7 +2039,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -2048,7 +2048,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -2057,7 +2057,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -2066,7 +2066,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -2075,7 +2075,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -2084,7 +2084,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -2093,7 +2093,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -2102,7 +2102,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -2111,7 +2111,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -2120,7 +2120,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -2129,7 +2129,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -2138,7 +2138,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -2147,7 +2147,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -2156,7 +2156,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -2165,7 +2165,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 4,
+      fk_id_sesi: 4,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
@@ -2174,7 +2174,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -2183,7 +2183,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -2192,7 +2192,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -2201,7 +2201,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -2210,7 +2210,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -2219,7 +2219,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -2228,7 +2228,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -2237,7 +2237,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -2246,7 +2246,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -2255,7 +2255,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -2264,7 +2264,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -2273,7 +2273,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -2282,7 +2282,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -2291,7 +2291,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -2300,7 +2300,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -2309,7 +2309,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -2318,7 +2318,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -2327,7 +2327,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -2336,7 +2336,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -2345,7 +2345,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -2354,7 +2354,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -2363,7 +2363,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -2372,7 +2372,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -2381,7 +2381,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -2390,7 +2390,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -2399,7 +2399,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -2408,7 +2408,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -2417,7 +2417,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -2426,7 +2426,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -2435,7 +2435,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -2444,7 +2444,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -2453,7 +2453,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -2462,7 +2462,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -2471,7 +2471,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -2480,7 +2480,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -2489,7 +2489,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -2498,7 +2498,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -2507,7 +2507,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -2516,7 +2516,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -2525,7 +2525,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -2534,7 +2534,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -2543,7 +2543,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -2552,7 +2552,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -2561,7 +2561,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -2570,7 +2570,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -2579,7 +2579,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -2588,7 +2588,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -2597,7 +2597,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -2606,7 +2606,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -2615,7 +2615,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -2624,7 +2624,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -2633,7 +2633,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -2642,7 +2642,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -2651,7 +2651,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -2660,7 +2660,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -2669,7 +2669,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -2678,7 +2678,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -2687,7 +2687,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -2696,7 +2696,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -2705,7 +2705,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 5,
+      fk_id_sesi: 5,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
@@ -2714,7 +2714,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'A',
@@ -2723,7 +2723,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'B',
@@ -2732,7 +2732,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'C',
@@ -2741,7 +2741,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'D',
@@ -2750,7 +2750,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'E',
@@ -2759,7 +2759,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'F',
@@ -2768,7 +2768,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'G',
@@ -2777,7 +2777,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'H',
@@ -2786,7 +2786,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'I',
@@ -2795,7 +2795,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 1,
       kolom: 'J',
@@ -2804,7 +2804,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'A',
@@ -2813,7 +2813,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'B',
@@ -2822,7 +2822,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'C',
@@ -2831,7 +2831,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'D',
@@ -2840,7 +2840,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'E',
@@ -2849,7 +2849,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'F',
@@ -2858,7 +2858,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'G',
@@ -2867,7 +2867,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'H',
@@ -2876,7 +2876,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'I',
@@ -2885,7 +2885,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 2,
       kolom: 'J',
@@ -2894,7 +2894,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'A',
@@ -2903,7 +2903,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'B',
@@ -2912,7 +2912,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'C',
@@ -2921,7 +2921,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'D',
@@ -2930,7 +2930,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'E',
@@ -2939,7 +2939,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'F',
@@ -2948,7 +2948,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'G',
@@ -2957,7 +2957,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'H',
@@ -2966,7 +2966,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'I',
@@ -2975,7 +2975,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 3,
       kolom: 'J',
@@ -2984,7 +2984,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'A',
@@ -2993,7 +2993,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'B',
@@ -3002,7 +3002,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'C',
@@ -3011,7 +3011,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'D',
@@ -3020,7 +3020,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'E',
@@ -3029,7 +3029,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'F',
@@ -3038,7 +3038,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'G',
@@ -3047,7 +3047,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'H',
@@ -3056,7 +3056,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'I',
@@ -3065,7 +3065,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 4,
       kolom: 'J',
@@ -3074,7 +3074,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',  
       baris: 5,
       kolom: 'A',
@@ -3083,7 +3083,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'B',
@@ -3092,7 +3092,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'C',
@@ -3101,7 +3101,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'D',
@@ -3110,7 +3110,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'E',
@@ -3119,7 +3119,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'F',
@@ -3128,7 +3128,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'G',
@@ -3137,7 +3137,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'H',
@@ -3146,7 +3146,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'I',
@@ -3155,7 +3155,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 5,
       kolom: 'J',
@@ -3164,7 +3164,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'A',
@@ -3173,7 +3173,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'B',
@@ -3182,7 +3182,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'C',
@@ -3191,7 +3191,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'D',
@@ -3200,7 +3200,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'E',
@@ -3209,7 +3209,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'F',
@@ -3218,7 +3218,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'G',
@@ -3227,7 +3227,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'H',
@@ -3236,7 +3236,7 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'I',
@@ -3245,14 +3245,14 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      id_sesi: 6,
+      fk_id_sesi: 6,
       ketersediaan: 'Tersedia',
       baris: 6,
       kolom: 'J',
       harga_seat: 15000,
       createdAt: new Date(),
       updatedAt: new Date()
-    },
+    }
   ]);
   },
 

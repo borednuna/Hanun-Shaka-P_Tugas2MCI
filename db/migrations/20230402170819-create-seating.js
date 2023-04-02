@@ -3,13 +3,13 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('seatings', {
-      id: {
+      id_seating: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id_sesi: {
+      fk_id_sesi: {
         type: Sequelize.INTEGER,
         references: {
           model: 'sesis',
