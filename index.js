@@ -1,5 +1,5 @@
 require('dotenv').config();
-const globals = require('./globals.js');
+const globals = require('./config/globals.js');
 const express = require('express');
 const app = express();
 const port = 3000;

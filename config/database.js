@@ -1,4 +1,4 @@
-const globals = require('../globals.js');
+const globals = require('./globals.js');
 const { db_name } = globals;
 const { username } = globals;
 const { password } = globals;
