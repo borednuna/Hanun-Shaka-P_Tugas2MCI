@@ -13,17 +13,17 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       detail_sesi.belongsTo(models.booking, {
         foreignKey: 'id_booking',
-        as: 'id_booking'
-        })
+        as: 'fk_id_booking'
+      });
       detail_sesi.belongsTo(models.sesi, {
         foreignKey: 'id_sesi',
-        as: 'id_sesi'
-        })
+        as: 'fk_id_sesi'
+      });
     }
   }
   detail_sesi.init({
-    id_booking: DataTypes.INTEGER,
-    id_sesi: DataTypes.INTEGER
+    booking: DataTypes.INTEGER,
+    sesi: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'detail_sesi',

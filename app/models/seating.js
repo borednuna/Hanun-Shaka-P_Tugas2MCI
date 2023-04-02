@@ -13,13 +13,13 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       seating.belongsTo(models.sesi, {
         foreignKey: 'id_sesi',
-        as: 'id_sesi'
-        })
+        as: 'fk_id_sesi'
+      });
     }
   }
   seating.init({
+    sesi: DataTypes.INTEGER,
     ketersediaan: DataTypes.ENUM('Tersedia', 'Terisi'),
-    id_sesi: DataTypes.INTEGER,
     baris: DataTypes.INTEGER,
     kolom: DataTypes.CHAR,
     harga_seat: DataTypes.INTEGER
