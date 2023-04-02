@@ -12,3 +12,5 @@ Kemudian, dari CDM tersebut didetailkan lagi dalam PDM berikut. <br/>
 
 ## CRUD API
 Dalam project ini, digunakan ExpressJs dan postgresql. Well, walaupun pada pertemuan kedua diajarkan untuk menggunakan XAMPP, saya mengimplementasikannya dengan postgresql. Alasan utamanya karena di kelas MBD saya diminta untuk menggunakan postgresql dan saya rasa tidak ada salahnya mencobanya pada project ini. Referensi yang saya gunakan _mostly_ adalah dokumentasi dari _sequelize_ sendiri mengenai penggunaannya dengan postgresql.
+
+Konfigurasi untuk menghubungkan _backend_ ke _database_ sudah disesuaikan di ```config/database.js```. Untuk project ini, saya sudah membuat user untuk staff Schematics di database postgresql. Konfigurasinya diatur dalam sebuah file ```.env``` seperti pada file ```.env.example```.
