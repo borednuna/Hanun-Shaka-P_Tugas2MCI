@@ -30,7 +30,7 @@ const getBookingByUser = (user) => {
 const getBookingByTanggal = (tanggal) => {
   return booking.findAll(
     {
-      where: {tanggal: tanggal},
+      where: {tgl_booking: tanggal},
       attributes: ['id', 'user', 'pembayaran', 'harga_total', 'tgl_booking', 'waktu_booking']
     }
   );

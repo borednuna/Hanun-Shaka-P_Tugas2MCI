@@ -20,26 +20,6 @@ const getDetailSesiById = async (id) => {
   }
 }
 
-const getDetailSesiByBooking = async (booking) => {
-    try {
-      const detail_sesi = detail_sesiRepository.getDetailSesiById(booking);
-      return detail_sesi;
-    }
-    catch (error) {
-      throw error;
-    }
-}
-
-const getDetailSesiBySesi = async (sesi) => {
-    try {
-        const detail_sesi = detail_sesiRepository.getDetailSesiById(sesi);
-        return detail_sesi;
-    }
-    catch (error) {
-        throw error;
-    }
-}
-
 const createDetailSesi = async (data) => {
   try {
     const detail_sesi = detail_sesiRepository.createDetailSesi(data);
@@ -73,8 +53,6 @@ const deleteDetailSesi = async (id) => {
 module.exports = {
   getAllDetailSesi,
   getDetailSesiById,
-  getDetailSesiByBooking,
-  getDetailSesiBySesi,
   createDetailSesi,
   updateDetailSesi,
   deleteDetailSesi
