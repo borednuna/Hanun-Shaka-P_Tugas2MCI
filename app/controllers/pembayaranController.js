@@ -1,112 +1,118 @@
-const pembayaranService = require('../services/pembayaranService');
+const pembayaranService = require("../services/pembayaranService");
 
 const getAllPembayaran = (req, res) => {
-  pembayaranService.getAllPembayaran()
+  pembayaranService
+    .getAllPembayaran()
     .then((pembayarans) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran retrieved successfully",
-        data: pembayarans
+        data: pembayarans,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getPembayaranById = (req, res) => {
-  pembayaranService.getPembayaranById(req.params.id)
+  pembayaranService
+    .getPembayaranById(req.params.id)
     .then((pembayaran) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran retrieved successfully",
-        data: pembayaran
+        data: pembayaran,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getPembayaranByTanggal = (req, res) => {
-  pembayaranService.getPembayaranByTanggal(req.params.tanggal)
+  pembayaranService
+    .getPembayaranByTanggal(req.params.tanggal)
     .then((pembayarans) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran retrieved successfully",
-        data: pembayarans
+        data: pembayarans,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const createPembayaran = (req, res) => {
-  pembayaranService.createPembayaran(req.body)
+  pembayaranService
+    .createPembayaran(req.body)
     .then((pembayaran) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran created successfully",
-        data: pembayaran
+        data: pembayaran,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const updatePembayaran = (req, res) => {
-  pembayaranService.updatePembayaran(req.params.id, req.body)
+  pembayaranService
+    .updatePembayaran(req.params.id, req.body)
     .then((pembayaran) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran updated successfully",
-        data: pembayaran
+        data: pembayaran,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const deletePembayaran = (req, res) => {
-  pembayaranService.deletePembayaran(req.params.id)
-    .then((pembayaran) => { 
+  pembayaranService
+    .deletePembayaran(req.params.id)
+    .then((pembayaran) => {
       res.status(200).json({
         status: "success",
         message: "Pembayaran deleted successfully",
-        data: pembayaran
+        data: pembayaran,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 module.exports = {
   getAllPembayaran,
@@ -114,5 +120,5 @@ module.exports = {
   getPembayaranByTanggal,
   createPembayaran,
   updatePembayaran,
-  deletePembayaran
-}
+  deletePembayaran,
+};

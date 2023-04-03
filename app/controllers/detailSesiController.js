@@ -1,99 +1,104 @@
-const detailSesiService = require('../services/detailSesiService');
+const detailSesiService = require("../services/detailSesiService");
 
 const getAllDetailSesi = (req, res) => {
-  detailSesiService.getAllDetailSesi()
+  detailSesiService
+    .getAllDetailSesi()
     .then((detailSesis) => {
       res.status(200).json({
         status: "success",
         message: "detailSesi retrieved successfully",
-        data: detailSesis
+        data: detailSesis,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getDetailSesiById = (req, res) => {
-  detailSesiService.getDetailSesiById(req.params.id)
+  detailSesiService
+    .getDetailSesiById(req.params.id)
     .then((detailSesi) => {
       res.status(200).json({
         status: "success",
         message: "detailSesi retrieved successfully",
-        data: detailSesi
+        data: detailSesi,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const createDetailSesi = (req, res) => {
-  detailSesiService.createDetailSesi(req.body)
+  detailSesiService
+    .createDetailSesi(req.body)
     .then((detailSesi) => {
       res.status(200).json({
         status: "success",
         message: "detailSesi created successfully",
-        data: detailSesi
+        data: detailSesi,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const updateDetailSesi = (req, res) => {
-  detailSesiService.updateDetailSesi(req.params.id, req.body)
+  detailSesiService
+    .updateDetailSesi(req.params.id, req.body)
     .then((detailSesi) => {
       res.status(200).json({
         status: "success",
         message: "detailSesi updated successfully",
-        data: detailSesi
+        data: detailSesi,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const deleteDetailSesi = (req, res) => {
-  detailSesiService.deleteDetailSesi(req.params.id)
-    .then((detailSesi) => { 
+  detailSesiService
+    .deleteDetailSesi(req.params.id)
+    .then((detailSesi) => {
       res.status(200).json({
         status: "success",
         message: "detailSesi deleted successfully",
-        data: detailSesi
+        data: detailSesi,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 module.exports = {
   getAllDetailSesi,
   getDetailSesiById,
   createDetailSesi,
   updateDetailSesi,
-  deleteDetailSesi
-}
+  deleteDetailSesi,
+};

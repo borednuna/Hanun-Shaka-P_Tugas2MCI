@@ -1,4 +1,4 @@
-const BookingService = require('../services/bookingService');
+const BookingService = require("../services/bookingService");
 
 const getAllBooking = (req, res) => {
   BookingService.getAllBooking()
@@ -6,17 +6,17 @@ const getAllBooking = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking retrieved successfully",
-        data: Bookings
+        data: Bookings,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getBookingById = (req, res) => {
   BookingService.getBookingById(req.params.id)
@@ -24,17 +24,17 @@ const getBookingById = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking retrieved successfully",
-        data: Booking
+        data: Booking,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getBookingByUser = (req, res) => {
   BookingService.getBookingById(req.params.user)
@@ -42,17 +42,17 @@ const getBookingByUser = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking retrieved successfully",
-        data: Booking
+        data: Booking,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const getBookingByTanggal = (req, res) => {
   BookingService.getBookingByTanggal(req.params.tanggal)
@@ -60,17 +60,17 @@ const getBookingByTanggal = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking retrieved successfully",
-        data: Bookings
+        data: Bookings,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const createBooking = (req, res) => {
   BookingService.createBooking(req.body)
@@ -78,17 +78,17 @@ const createBooking = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking created successfully",
-        data: Booking
+        data: Booking,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const updateBooking = (req, res) => {
   BookingService.updateBooking(req.params.id, req.body)
@@ -96,35 +96,35 @@ const updateBooking = (req, res) => {
       res.status(200).json({
         status: "success",
         message: "Booking updated successfully",
-        data: Booking
+        data: Booking,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 const deleteBooking = (req, res) => {
   BookingService.deleteBooking(req.params.id)
-    .then((Booking) => { 
+    .then((Booking) => {
       res.status(200).json({
         status: "success",
         message: "Booking deleted successfully",
-        data: Booking
+        data: Booking,
       });
     })
     .catch((error) => {
       res.status(500).json({
         status: "error",
         message: error.message,
-        data: error
+        data: error,
       });
     });
-}
+};
 
 module.exports = {
   getAllBooking,
@@ -133,5 +133,5 @@ module.exports = {
   getBookingByTanggal,
   createBooking,
   updateBooking,
-  deleteBooking
-}
+  deleteBooking,
+};

@@ -1,7 +1,5 @@
-'use strict';
-const {
-  Model
-} = require('sequelize');
+"use strict";
+const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
   class booking extends Model {
     /**
@@ -12,28 +10,31 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       booking.belongsTo(models.user, {
-        foreignKey: 'id',
-        as: 'bk_id_user'
+        foreignKey: "id",
+        as: "bk_id_user",
       });
       booking.belongsTo(models.pembayaran, {
-        foreignKey: 'id',
-        as: 'bk_id_pembayaran'
+        foreignKey: "id",
+        as: "bk_id_pembayaran",
       });
       booking.hasMany(models.detail_sesi, {
-        foreignKey: 'id',
-        as: 'ds_id_booking'
-      })
+        foreignKey: "id",
+        as: "ds_id_booking",
+      });
     }
   }
-  booking.init({
-    user: DataTypes.INTEGER,
-    pembayaran: DataTypes.INTEGER,
-    harga_total: DataTypes.INTEGER,
-    tgl_booking: DataTypes.DATEONLY,
-    waktu_booking: DataTypes.TIME
-  }, {
-    sequelize,
-    modelName: 'booking',
-  });
+  booking.init(
+    {
+      user: DataTypes.INTEGER,
+      pembayaran: DataTypes.INTEGER,
+      harga_total: DataTypes.INTEGER,
+      tgl_booking: DataTypes.DATEONLY,
+      waktu_booking: DataTypes.TIME,
+    },
+    {
+      sequelize,
+      modelName: "booking",
+    }
+  );
   return booking;
 };
