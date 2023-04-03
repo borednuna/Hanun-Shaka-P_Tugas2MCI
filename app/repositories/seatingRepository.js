@@ -3,7 +3,7 @@ const { seating } = require('../models');
 const getAllSeating = () => {
   return seating.findAll(
       {
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
@@ -12,7 +12,7 @@ const getSeatingById = (id) => {
   return seating.findOne(
       {
       where: {id: id},
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
@@ -20,8 +20,8 @@ const getSeatingById = (id) => {
 const getSeatingBySesi = (sesi) => {
   return seating.findAll(
       {
-      where: {st_id_sesi: sesi},
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      where: {sesi: sesi},
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
@@ -30,7 +30,7 @@ const getSeatingByKetersediaan = (ketersediaan) => {
   return seating.findAll(
       {
       where: {ketersediaan: ketersediaan},
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
@@ -39,7 +39,7 @@ const getSeatingByBaris = (baris) => {
   return seating.findAll(
       {
       where: {baris: baris},
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
@@ -48,7 +48,7 @@ const getSeatingByHargaSeat = (harga_seat) => {
   return seating.findAll(
       {
       where: {harga_seat: harga_seat},
-      attributes: ['st_id_sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
+      attributes: ['sesi', 'ketersediaan', 'baris', 'kolom', 'harga_seat']
       }
   );
 }
