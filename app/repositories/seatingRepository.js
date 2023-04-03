@@ -58,11 +58,15 @@ const createSeating = (data) => {
 }
 
 const updateSeating = (id, data) => {
-  return seating.update(data, {where: {id: id}});
+  return seating.update(data, {
+    where: {id: id}
+  });
 }
 
 const deleteSeating = (id) => {
-  return seating.destroy({where: {id: id}});
+  return seating.destroy({
+    where: {id: id}
+  });
 }
 
 module.exports = {

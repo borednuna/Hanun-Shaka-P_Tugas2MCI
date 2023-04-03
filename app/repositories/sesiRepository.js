@@ -50,11 +50,15 @@ const createSesi = (data) => {
 }
 
 const updateSesi = (id, data) => {
-  return sesi.update(data, {where: {id: id}});
+  return sesi.update(data, {
+    where: {id: id}
+  });
 }
 
 const deleteSesi = (id) => {
-  return sesi.destroy({where: {id: id}});
+  return sesi.destroy({
+    where: {id: id}
+  });
 }
 
 module.exports = {
