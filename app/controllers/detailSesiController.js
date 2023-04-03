@@ -38,6 +38,44 @@ const getDetailSesiById = (req, res) => {
     });
 };
 
+const getDetailSesiByBooking = (req, res) => {
+  detailSesiService
+  .getDetailSesiByBooking(req.params.booking)
+  .then((detailSesi) => {
+    res.status(200).json({
+      status: "success",
+      message: "detailSesi retrieved successfully",
+      data: detailSesi,
+    });
+  })
+  .catch((error) => {
+    res.status(500).json({
+      status: "error",
+      message: error.message,
+      data: error,
+    });
+  });
+};
+
+const getDetailSesiBySesi = (req, res) => {
+  detailSesiService
+  .getDetailSesiBySesi(req.params.sesi)
+  .then((detailSesi) => {
+    res.status(200).json({
+      status: "success",
+      message: "detailSesi retrieved successfully",
+      data: detailSesi,
+    });
+  })
+  .catch((error) => {
+    res.status(500).json({
+      status: "error",
+      message: error.message,
+      data: error,
+    });
+  });
+};
+
 const createDetailSesi = (req, res) => {
   detailSesiService
     .createDetailSesi(req.body)
@@ -98,6 +136,8 @@ const deleteDetailSesi = (req, res) => {
 module.exports = {
   getAllDetailSesi,
   getDetailSesiById,
+  getDetailSesiByBooking,
+  getDetailSesiBySesi,
   createDetailSesi,
   updateDetailSesi,
   deleteDetailSesi,

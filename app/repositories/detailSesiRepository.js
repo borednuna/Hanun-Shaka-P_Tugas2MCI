@@ -13,6 +13,20 @@ const getDetailSesiById = (id) => {
   });
 };
 
+const getDetailSesiByBooking = (booking) => {
+  return detail_sesi.findOne({
+    where: { booking: booking },
+    attributes: ["id", "booking", "sesi"],
+  });
+}
+
+const getDetailSesiBySesi = (sesi) => {
+  return detail_sesi.findOne({
+    where: { sesi: sesi },
+    attributes: ["id", "booking", "sesi"],
+  });
+}
+
 const createDetailSesi = (data) => {
   return detail_sesi.create(data);
 };
@@ -32,6 +46,8 @@ const deleteDetailSesi = (id) => {
 module.exports = {
   getAllDetailSesi,
   getDetailSesiById,
+  getDetailSesiByBooking,
+  getDetailSesiBySesi,
   createDetailSesi,
   updateDetailSesi,
   deleteDetailSesi,
