@@ -13,12 +13,16 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       booking.belongsTo(models.user, {
         foreignKey: 'id',
-        as: 'fk_id_user'
+        as: 'bk_id_user'
       });
       booking.belongsTo(models.pembayaran, {
         foreignKey: 'id',
-        as: 'fk_id_pembayaran'
+        as: 'bk_id_pembayaran'
       });
+      booking.hasMany(models.detail_sesi, {
+        foreignKey: 'id',
+        as: 'ds_id_booking'
+      })
     }
   }
   booking.init({

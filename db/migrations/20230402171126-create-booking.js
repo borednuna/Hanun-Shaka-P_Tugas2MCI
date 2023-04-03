@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      fk_id_user: {
+      user: {
         type: Sequelize.INTEGER,
         references: {
           model: 'users',
@@ -18,7 +18,7 @@ module.exports = {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE'
       },
-      fk_id_pembayaran: {
+      pembayaran: {
         type: Sequelize.INTEGER,
         references: {
           model: 'pembayarans',

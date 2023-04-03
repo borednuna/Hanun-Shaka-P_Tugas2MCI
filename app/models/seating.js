@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       seating.belongsTo(models.sesi, {
         foreignKey: 'id',
-        as: 'fk_id_sesi'
+        as: 'st_id_sesi'
       });
     }
   }

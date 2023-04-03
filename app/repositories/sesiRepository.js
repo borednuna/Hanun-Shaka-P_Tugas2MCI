@@ -1,4 +1,3 @@
-// const sesi = require('../models/sesi.js');
 const {sesi} = require('../models');
 
 const getAllSesi = () => {

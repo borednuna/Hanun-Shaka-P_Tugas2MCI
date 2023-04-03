@@ -9,7 +9,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      fk_id_booking: {
+      booking: {
         type: Sequelize.INTEGER,
         references: {
           model: 'bookings',
@@ -18,7 +18,7 @@ module.exports = {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE'
       },
-      fk_id_sesi: {
+      sesi: {
         type: Sequelize.INTEGER,
         references: {
           model: 'sesis',
