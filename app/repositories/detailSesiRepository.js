@@ -18,14 +18,14 @@ const getDetailSesiByBooking = (booking) => {
     where: { booking: booking },
     attributes: ["id", "booking", "sesi"],
   });
-}
+};
 
 const getDetailSesiBySesi = (sesi) => {
   return detail_sesi.findOne({
     where: { sesi: sesi },
     attributes: ["id", "booking", "sesi"],
   });
-}
+};
 
 const createDetailSesi = (data) => {
   return detail_sesi.create(data);

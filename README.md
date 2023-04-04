@@ -14,3 +14,6 @@ Kemudian, dari CDM tersebut didetailkan lagi dalam PDM berikut. <br/>
 Dalam project ini, digunakan ExpressJs dan postgresql. Well, walaupun pada pertemuan kedua diajarkan untuk menggunakan XAMPP, saya mengimplementasikannya dengan postgresql. Alasan utamanya karena di kelas MBD saya diminta untuk menggunakan postgresql dan saya rasa tidak ada salahnya mencobanya pada project ini. Referensi yang saya gunakan _mostly_ adalah dokumentasi dari _sequelize_ sendiri mengenai penggunaannya dengan postgresql.
 
 Konfigurasi untuk menghubungkan _backend_ ke _database_ sudah disesuaikan di ```config/database.js```. Untuk project ini, saya sudah membuat user untuk staff Schematics di database postgresql. Konfigurasinya diatur dalam sebuah file ```.env``` seperti pada file ```.env.example```.
+
+## Deployment
+Deployment untuk repository dan database project ini menggunakan layanan gratis terbatas dari  [Railway](https://railway.app). Di _production environment_, nama database, _host_, _port_, _username_, serta _password_ disediakan di deployment Postgresql Railway. Link API yang sudah di-_deploy_ ada [disini](hanun-shaka-ptugas2mci-production.up.railway.app) dan dokumentasi Postman-nya ada [disini](https://documenter.getpostman.com/view/13055513/2s93RXr9vE).
