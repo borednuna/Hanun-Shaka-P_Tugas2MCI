@@ -3,28 +3,28 @@ const { sesi } = require("../models");
 const getAllSesi = () => {
   console.log(sesi);
   return sesi.findAll({
-    attributes: ["tanggal", "materi", "pemateri"],
+    attributes: ["id", "tanggal", "materi", "pemateri"],
   });
 };
 
 const getSesiById = (id) => {
   return sesi.findOne({
     where: { id: id },
-    attributes: ["tanggal", "materi", "pemateri"],
+    attributes: ["id", "tanggal", "materi", "pemateri"],
   });
 };
 
 const getSesiByPemateri = (pemateri) => {
   return sesi.findAll({
     where: { pemateri: pemateri },
-    attributes: ["tanggal", "materi", "pemateri"],
+    attributes: ["id", "tanggal", "materi", "pemateri"],
   });
 };
 
 const getSesiByTanggal = (tanggal) => {
   return sesi.findAll({
     where: { tanggal: tanggal },
-    attributes: ["tanggal", "materi", "pemateri"],
+    attributes: ["id", "tanggal", "materi", "pemateri"],
   });
 };
 
