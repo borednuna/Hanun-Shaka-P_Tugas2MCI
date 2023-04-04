@@ -31,10 +31,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       tgl_booking: {
-        type: Sequelize.DATEONLY,
-      },
-      waktu_booking: {
-        type: Sequelize.TIME,
+        type: Sequelize.DATE,
       },
       createdAt: {
         allowNull: false,

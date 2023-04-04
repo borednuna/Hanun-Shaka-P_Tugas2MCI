@@ -17,8 +17,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   pembayaran.init(
     {
-      tanggal: DataTypes.DATEONLY,
-      waktu: DataTypes.TIME,
+      tanggal: DataTypes.DATE,
       method: DataTypes.ENUM("Transfer", "Ovo", "Gopay", "Dana"),
     },
     {

@@ -36,15 +36,6 @@ const getSesiByTanggal = async (tanggal) => {
   }
 };
 
-const getSesiByWaktu = async (waktu) => {
-  try {
-    const sesis = sesiRepository.getSesiByWaktu(waktu);
-    return sesis;
-  } catch (error) {
-    throw error;
-  }
-};
-
 const createSesi = async (data) => {
   try {
     const sesi = sesiRepository.createSesi(data);
@@ -77,7 +68,6 @@ module.exports = {
   getSesiById,
   getSesiByPemateri,
   getSesiByTanggal,
-  getSesiByWaktu,
   createSesi,
   updateSesi,
   deleteSesi,

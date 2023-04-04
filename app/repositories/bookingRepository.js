@@ -9,7 +9,6 @@ const getAllBooking = () => {
       "pembayaran",
       "harga_total",
       "tgl_booking",
-      "waktu_booking",
     ],
   });
 };
@@ -23,7 +22,6 @@ const getBookingById = (id) => {
       "pembayaran",
       "harga_total",
       "tgl_booking",
-      "waktu_booking",
     ],
   });
 };
@@ -37,7 +35,6 @@ const getBookingByUser = (user) => {
       "pembayaran",
       "harga_total",
       "tgl_booking",
-      "waktu_booking",
     ],
   });
 };
@@ -51,7 +48,6 @@ const getBookingByTanggal = (tanggal) => {
       "pembayaran",
       "harga_total",
       "tgl_booking",
-      "waktu_booking",
     ],
   });
 };

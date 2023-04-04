@@ -76,25 +76,6 @@ const getSesiByTanggal = (req, res) => {
     });
 };
 
-const getSesiByWaktu = (req, res) => {
-  sesiService
-    .getSesiByWaktu(req.params.waktu)
-    .then((sesis) => {
-      res.status(200).json({
-        status: "success",
-        message: "Sesi retrieved successfully",
-        data: sesis,
-      });
-    })
-    .catch((error) => {
-      res.status(500).json({
-        status: "error",
-        message: error.message,
-        data: error,
-      });
-    });
-};
-
 const createSesi = (req, res) => {
   sesiService
     .createSesi(req.body)
@@ -157,7 +138,6 @@ module.exports = {
   getSesiById,
   getSesiByPemateri,
   getSesiByTanggal,
-  getSesiByWaktu,
   createSesi,
   updateSesi,
   deleteSesi,

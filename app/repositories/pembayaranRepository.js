@@ -3,21 +3,21 @@ const { pembayaran } = require("../models");
 const getAllPembayaran = () => {
   console.log(pembayaran);
   return pembayaran.findAll({
-    attributes: ["id", "tanggal", "waktu", "method"],
+    attributes: ["id", "tanggal", "method"],
   });
 };
 
 const getPembayaranById = (id) => {
   return pembayaran.findOne({
     where: { id: id },
-    attributes: ["id", "tanggal", "waktu", "method"],
+    attributes: ["id", "tanggal", "method"],
   });
 };
 
 const getPembayaranByTanggal = (tanggal) => {
   return pembayaran.findAll({
     where: { tanggal: tanggal },
-    attributes: ["id", "tanggal", "waktu", "method"],
+    attributes: ["id", "tanggal", "method"],
   });
 };
 

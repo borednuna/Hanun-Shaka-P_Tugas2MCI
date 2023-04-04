@@ -28,8 +28,7 @@ module.exports = (sequelize, DataTypes) => {
       user: DataTypes.INTEGER,
       pembayaran: DataTypes.INTEGER,
       harga_total: DataTypes.INTEGER,
-      tgl_booking: DataTypes.DATEONLY,
-      waktu_booking: DataTypes.TIME,
+      tgl_booking: DataTypes.DATE,
     },
     {
       sequelize,

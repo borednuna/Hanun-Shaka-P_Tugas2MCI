@@ -21,8 +21,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   sesi.init(
     {
-      tanggal: DataTypes.DATEONLY,
-      waktu: DataTypes.TIME,
+      tanggal: DataTypes.DATE,
       materi: DataTypes.STRING,
       pemateri: DataTypes.STRING,
     },
