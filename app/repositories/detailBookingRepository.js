@@ -15,14 +15,14 @@ const getDetailBookingById = (id) => {
 
 const getDetailBookingByBooking = (booking) => {
   return detail_booking.findOne({
-    where: { booking: booking },
+    where: { db_id_booking: booking },
     attributes: ["id", "db_id_booking", "db_id_sesi"],
   });
 };
 
 const getDetailBookingBySesi = (sesi) => {
   return detail_booking.findOne({
-    where: { sesi: sesi },
+    where: { db_id_sesi: sesi },
     attributes: ["id", "db_id_booking", "db_id_sesi"],
   });
 };
