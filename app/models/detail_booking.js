@@ -22,6 +22,8 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   detail_booking.init({
+    booking: DataTypes.INTEGER,
+    sesi: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'detail_booking',
