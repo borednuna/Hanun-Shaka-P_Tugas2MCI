@@ -2,14 +2,14 @@ const { detail_booking } = require("../models");
 
 const getAllDetailBooking = () => {
   return detail_booking.findAll({
-    attributes: ["id", "db_id_booking", "db_id_sesi"],
+    attributes: ["id", "booking", "sesi"],
   });
 };
 
 const getDetailBookingById = (id) => {
   return detail_booking.findOne({
     where: { id: id },
-    attributes: ["id", "db_id_booking", "db_id_sesi"],
+    attributes: ["id", "booking", "sesi"],
   });
 };
 
