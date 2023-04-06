@@ -7,7 +7,7 @@ const sesiRoute = require("./app/routes/sesiRoutes.js");
 const seatingRoute = require("./app/routes/seatingRoutes.js");
 const userRoute = require("./app/routes/userRoutes.js");
 const pembayaranRoute = require("./app/routes/pembayaranRoutes.js");
-const detail_sesiRoute = require("./app/routes/detailSesiRoutes.js");
+const detail_sesiRoute = require("./app/routes/detailBookingRoutes.js");
 const bookingRoute = require("./app/routes/bookingRoutes.js");
 
 app.use(cors());
